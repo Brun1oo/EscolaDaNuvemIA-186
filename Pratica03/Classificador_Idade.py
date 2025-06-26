@@ -1,5 +1,7 @@
+#Pedimos que o usuário coloque a sua idade
 idade_usuario = int(input("Digite a sua idade: "))
 
+#Aqui classificamos o usuário apartir da idade que ele colocou
 if idade_usuario < 0:
     print("Idade válida")
 elif idade_usuario <= 12:
